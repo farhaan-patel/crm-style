@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white: #ffffff;
+	--black: #000000;
+	--pink: purple;
+    --grey: #656565;
+    --coffee: #0ab39c;
+    --mainbb:#f3f3f9;
+    --txt-aside:#ffffff;
+    --secondary:#878a99;
+    --lool:#0ab39c;
+    --anc:#495057;
+    --font2:'Poppins' , 'sans-serif';
+}
+.d-flex{
+    display: flex;
+}
+.flex-w{
+    flex-wrap: wrap;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.txt-align-center{
+    text-align: center;
+    
+}
+.item-align-center{
+    align-items: center;
+    align-content: center;
+}
+li{
+    list-style: none;
+}
+.d-block{
+    display: block;
+}
+.position-relative{
+    position: relative;
+}
+.w-60{
+    width: 60px!important;
+}
+.ml-60 {
+    
+    margin-left: 60px!important;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.justify-center{
+    justify-content: center;
+}
+.vh-100{
+    height: 100vh;
+}
+
+/* form */
+
+.login{
+    background-image: url(https://www.zilliondesigns.com/blog/wp-content/uploads/Perfect-Ecommerce-Sales-Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+}
+.form{
+    padding: 10px;
+    width: 500px;
+    backdrop-filter: blur(10px) ;
+    border: none;
+    border-radius: 10px ;
+   
+    font-family: var(--font2);
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .login-style{
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 10px ;
+
+  }

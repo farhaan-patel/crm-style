@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fontawsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- remix cdn icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+    integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- css main -->
+  <link rel="stylesheet" href="asset/css/STYLE.css">
+
+  <!-- media  -->
+  <link rel="stylesheet" href="asset/css/media.css">
+
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/lafeber/world-flags-sprite/stylesheets/flags32-both.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- header start  -->
+  <header class="d-flex flex-wrap justify-between txt-align-center  item-align-center ml-260">
+    <div class="serch">
+
+      <input type="search" placeholder="&#128269; search..." class="search-bar">
+      <i class="ri-menu-2-line bar"></i>
+    </div>
+    <div class="ul-h-main">
+    <ul class="h-ul d-flex flex-wrap justify-between txt-align-center  item-align-center">
+      <div class="dnone">
+      <li class="india"><img src="asset/images/Flag-India.webp" alt="flag"></li>
+      <li><i class="ri-layout-grid-fill"></i></li>
+      <li><i class="ri-shopping-bag-line"></i></li>
+      <li><i class="ri-qr-scan-line  " id="btnFullscreen" type="button"></i></li>
+    
+      <li class="position-relative">
+        <div class="toggle-btn active">
+          <input type="checkbox"  checked class="cb-value" />
+          <span class="round-btn"></span>
+        </div>
+        <!-- <div class="setting">
+          <input type="radio" id="dark" name="theme">dark mode
+          <input type="radio" id="light" name="theme">light mode
+          <input type="radio" id="pink" name="theme">pink mode
+        </div> -->
+      </li>
+    </div>
+      <li class="profile-2">
+        <div class="deg d-flex flex-wrap  align-center">
+          <img src="asset/images/young-bearded-man-with-striped-shirt.jpg" alt="">
+          <div class="name-of-the-user">
+            <h3>farhaan patel</h3>
+            <p>founder</p>
+          </div>
+          
+          <ul class="option-setting d-none ">
+            <li class="option"><a href=""><i class="ri-account-circle-fill"></i> <span class="options-setting txt-capita ">profile</span></a></li>
+            <li class="option"><a href=""><i class="ri-chat-2-line"></i> <span class="options-setting txt-capita ">message</span></a></li>
+            <li class="option"><a href=""><i class="ri-task-line"></i> <span class="options-setting txt-capita ">taskboard</span></a></li>
+            <li class="option"><a href=""><i class="ri-questionnaire-line"></i> <span class="options-setting txt-capita ">help</span></a></li>
+            <hr>
+            <li class="option"><a href=""><i class="ri-wallet-3-line"></i></i> <span class="options-setting txt-capita ">balace <span class="balace">$5971.67</span></span></a></li>
+            <li class="option"><a href=""><i class="ri-settings-5-line"></i> <span class="options-setting txt-capita ">setting</span></a></li>
+            <li class="option"><a href=""><i class="ri-lock-line"></i> <span class="options-setting txt-capita ">lock screen</span></a></li>
+            <li class="option"><a href=""><i class="ri-logout-box-r-line"></i> <span class="options-setting txt-capita ">lock screen</span></a></li>
+
+          </ul>
+        </div>
+      </li>
+    </ul>
+    </div>
+    
+  </header>
+  <!-- aside start  -->
+  <aside class="aside">
+    <div class="navbar-box txt-align-center">
+      <a href="index.html" class="logo"><img src="asset/images/logo.png" alt="logo" id="home-btn" /></a>
+    </div>
+    </div>
+    <div class="manu">
+      <ul class="manu-list">
+        <span class="ques">
+          <i class="ri-speed-up-line icon-style"></i>
+          <span class="manu-title ">dashboard </span>
+          <i class="fa-solid fa-angle-down"></i> 
+          <span><i class="fa-solid fa-angle-up d-none"></i></span>
+        </span>
+        <div class="ans">
+          <li> - Analytics</li>
+          <li>-crm</li>
+          <li>- Ecommerce</li>
+          <li>-crypto</li>
+          <li>- project</li>
+        </div>
+      </ul>
+      <ul class="manu-list">
+        <span class="ques"><i class="ri-apps-2-line icon-style"></i><span class="manu-title">apps </span><i class="fa-solid fa-angle-down"></i> <span><i
+              class="fa-solid fa-angle-up d-none"></i></span></span>
+        <div class="ans">
+          <li>- calender</li>
+          <li>- chart</li>
+          <li>- email</li>
+          <li>- Ecommerce</li>
+          <li>- project</li>
+          <li>- tasks</li>
+          <li>- crm</li>
+          <li>- -crypto</li>
+          <li>- invoice</li>
+          <li>- support tickt</li>
+          <li>- nft market place</li>
+          <li>- to do</li>
+          <li>- jobs</li>
+        </div>
+      </ul>
+      <ul class="manu-list">
+        <span class="ques"><i class="ri-layout-3-line icon-style"></i><span class="manu-title">Layout </span><i class="fa-solid fa-angle-down"></i> <span><i
+              class="fa-solid fa-angle-up d-none"></i></span></span>
+        <div class="ans">
+          <li>- Horizontal</li>
+          <li>- detached</li>
+          <li>- two column</li>
+          <li>- hovered</li>
+
+        </div>
+      </ul>
+    </div>
+  </aside>
+  <!-- main body -->
+  <section class="mainbody padding-side30 ml-260">
+    <div class="body-header d-flex justify-between flex-wrap">
+      <div class="bhc">
+
+        <h3>Good Morning, Anna!</h3>
+        <p>Here's what's happening with your store today.</p>
+      </div>
+      <div class="widget">
+         <span class="calender"> 22-08-2020 </span>
+         <span class="calender-icon"></span>
+        <button class="addp"><i class="ri-add-circle-line"></i> Add Product</button>
+      </div>
+    </div>
+
+    <div class="main-body-boxs">
+      <div class="box1 box-1">
+        <div class="box-grw">
+          <div class="justify-between d-flex oooo"><span class="earning-txt">total earning</span> <span class="grwp"><i
+                class="ri-arrow-right-up-line"></i>+16.24%</span></div>
+          <span></span>
+          <div class="profit d-flex ">
+            <span>$</span>
+            <p id="number2" class="number">559.25</p>
+          </div>
+          <div class="grw-box-lastline">
+            <div class="anc"><a href="">View net earnings</a></div>
+            <div class="svg-grw"><i class="ri-money-dollar-circle-line"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="box1 box-2">
+        <div class="box-grw">
+          <div class="justify-between d-flex oooo"><span class="earning-txt">total order</span> <span class="grwp"><i
+                class="ri-arrow-right-up-line"></i>-35.56%</span></div>
+          <span></span>
+          <div class="profit d-flex ">
+            <span>$</span>
+            <p id="number1" class="number">36894</p>
+          </div>
+          <div class="grw-box-lastline">
+            <div class="anc"><a href="">View all oder</a></div>
+            <div class="svg-grw"><i style="color: #299cdb;" class="ri-shopping-bag-line"></i></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="box1 box-3">
+        <div class="box-grw">
+          <div class="justify-between d-flex oooo"><span class="earning-txt">Customer</span> <span class="grwp"><i
+                class="ri-arrow-right-up-line"></i>+16.24%</span></div>
+          <span></span>
+          <div class="profit d-flex ">
+            <span>$</span>
+            <p id="number3" class="number">183.25</p><span>M</span>
+          </div>
+          <div class="grw-box-lastline">
+            <div class="anc"><a href="">See details </a></div>
+            <div class="svg-grw"><i class="ri-money-dollar-circle-line"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="box1 box-4">
+        <div class="box-grw">
+          <div class="justify-between d-flex oooo"><span class="earning-txt">My Balance</span> <span class="grwp"><i
+                class="ri-arrow-right-up-line"></i>+16.24%</span></div>
+          <span></span>
+          <div class="profit d-flex ">
+            <span>$</span>
+            <p id="number4" class="number">165.289</p><span>K</span>
+          </div>
+          <div class="grw-box-lastline">
+            <div class="anc"><a href="">Widthdraw money</a></div>
+            <div class="svg-grw"><i class="ri-money-dollar-circle-line"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="box1 box-5">
+        <div id="chart"></div>
+      </div>
+      <div class="box1 box-6">
+        <div id="container"></div>
+      </div>
+      <div class="box1 box-7">
+
+        <div class="pro_dsc1">
+          <div class="best-selling ">
+            <div class="best-seller-header">
+              <div class="d-inline-block font">Best Selling Products</div>
+              <div class="sort-by d-inline-block font">sort by : <span class="today">today</span></div>
+
+
+            </div>
+            <div class="table-body">
+              <table>
+                <tbody>
+                  <tr class="best-selling-cart">
+                    <td>
+                      <div class="d-flex f-wrap align-center">
+                        <div class="best-selling-cart-img">
+                          <img src="asset/images/bs-1.png" alt="" />
+                        </div>
+                        <h5>
+                          <p class="cart-product">Branded T-shirt</p>
+                          <span>24-Apr-2021</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$29.00</h5>
+                      <span>Price</span>
+                    </td>
+                    <td>
+                      <h5>62</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5>510</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td class="dnone ">
+                      <h5>$1,789</h5>
+                      <span>Amount</span>
+                    </td>
+                  </tr>
+                  <tr class="best-selling-cart">
+                    <td>
+                      <div class="d-flex align-center f-wrap">
+                        <div class="best-selling-cart-img">
+                          <img src="asset/images/bs-2.png" alt="" />
+                        </div>
+                        <h5 class="cart-product">
+                          <p>Bentwood Chair</p>
+                          <span>19-Mar-2021</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$85.20</h5>
+                      <span>Price</span>
+                    </td>
+                    <td>
+                      <h5>35</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5 class="out-stock">Out of Stock</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td class="dnone">
+                      <h5>$2982</h5>
+                      <span>Amount</span>
+                    </td>
+                  </tr>
+                  <tr class="best-selling-cart">
+                    <td>
+                      <div class="d-flex align-center f-wrap">
+                        <div class="best-selling-cart-img">
+                          <img src="asset/images/bs-3.png" alt="" />
+                        </div>
+                        <h5 class="cart-product">
+                          <p>Borocil PaperCup</p>
+                          <span>19-Mar-2021</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$14.00</h5>
+                      <span>Price</span>
+                    </td>
+                    <td>
+                      <h5>80</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5>749</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td class="dnone">
+                      <h5>$1120</h5>
+                      <span>Amount</span>
+                    </td>
+                  </tr>
+                  <tr class="best-selling-cart">
+                    <td>
+                      <div class="d-flex align-center f-wrap">
+                        <div class="best-selling-cart-img">
+                          <img src="asset/images/bs-4.png" alt="" />
+                        </div>
+                        <h5 class="cart-product">
+                          <p>One Seater Sofa</p>
+                          <span>11-Feb-2021</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$127.50</h5>
+                      <span>Price</span>
+                    </td>
+                    <td>
+                      <h5>56</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5 class="out-stock">Out of Stock</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td class="dnone">
+                      <h5>$7140</h5>
+                      <span>Amount</span>
+                    </td>
+                  </tr>
+                  <tr class="best-selling-cart">
+                    <td>
+                      <div class="d-flex align-center f-wrap">
+                        <div class="best-selling-cart-img">
+                          <img src="asset/images/bs-5.png" alt="" />
+                        </div>
+                        <h5 class="cart-product">
+                          <p>Stillbird Helmet</p>
+                          <span>17-Jan-2021</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$54.00</h5>
+                      <span>Price</span>
+                    </td>
+                    <td>
+                      <h5>74</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5>805</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td class="dnone">
+                      <h5>$3996</h5>
+                      <span>Amount</span>
+                    </td>
+                  </tr>
+                  <tr class="best-selling-cart">
+                    <td>
+                      <div class="d-flex align-center f-wrap">
+                        <div class="best-selling-cart-img">
+                          <img src="asset/images/bs-5.png" alt="" />
+                        </div>
+                        <h5 class="cart-product">
+                          <p>Stillbird Helmet</p>
+                          <span>17-Jan-2021</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td>
+                      <h5>$54.00</h5>
+                      <span>Price</span>
+                    </td>
+                    <td>
+                      <h5>74</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5>805</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td class="dnone">
+                      <h5>$3996</h5>
+                      <span>Amount</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="best-selling-bottom">
+              <span>showing</span>
+              <span class="bold">5</span>
+              <span>of</span>
+              <span class="bold">25</span>
+              <span>Results</span>
+              <div class="pagination d-inline-block f-right">
+                <a href="javascript:void(0);" class="pagin">&laquo;</a>
+                <a href="javascript:void(0);" class="pagin">1</a>
+                <a href="javascript:void(0);" class="pagin-active">2</a>
+                <a href="javascript:void(0);" class="pagin">3</a>
+                <a href="javascript:void(0);" class="pagin">&raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box1 box-8">
+        <div class="pro_dsc2">
+          <div class="top-sellers">
+            <div class="best-seller-header">
+              <p class="d-inline-block font">Top-Sellers</p>
+              <a href="javascript:void(0);"><span class="nav-link f-right">Report <i class="ri-arrow-down-s-line"></i>
+                  <div class="menu-dropdown6 d-none">
+                    <a href="javascript:void(0);" class="down d-block">Download Report</a>
+                    <a href="javascript:void(0);" class="down d-block">Export</a>
+                    <a href="javascript:void(0);" class="down d-block">Import</a>
+                  </div>
+                </span>
+              </a>
+            </div>
+            <div class="table-body">
+              <table>
+                <tbody>
+                  <tr class="top-sellers-cart">
+                    <td>
+                      <div class="d-flex f-wrap align-center">
+                        <div class="top-sellers-cart-img ">
+                          <img src="asset/images/ts-1.png" alt="">
+                        </div>
+                        <h5>
+                          <p class="top-seller-product">iTest Factory</p><span>Oliver Tyler</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td><span>Bags & Wallets</span></td>
+                    <td>
+                      <h5>8547</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td>
+                      <h5>$541200</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5>32%</h5>
+                    </td>
+                    <td> <span><i class="ri-bar-chart-fill"></i></span></td>
+                  </tr>
+                  <tr class="top-sellers-cart">
+                    <td>
+                      <div class="d-flex f-wrap align-center">
+                        <div class="top-sellers-cart-img ">
+                          <img src="asset/images/ts-2.png" alt="">
+                        </div>
+                        <h5>
+                          <p class="top-seller-product">Digitech Galaxy</p><span>John Roberts</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td><span>Watches</span></td>
+                    <td>
+                      <h5>895</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td>
+                      <h5>$75030</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5>79%</h5>
+                    </td>
+                    <td> <span><i class="ri-bar-chart-fill"></i></span></td>
+                  </tr>
+                  <tr class="top-sellers-cart">
+                    <td>
+                      <div class="d-flex f-wrap align-center">
+                        <div class="top-sellers-cart-img ">
+                          <img src="asset/images/ts-3.png" alt="">
+                        </div>
+                        <h5>
+                          <p class="top-seller-product">Nesta Techno.</p><span>Harley Fuller</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td><span>Bike Accessories</span></td>
+                    <td>
+                      <h5>3470</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td>
+                      <h5>$45600</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5>90%</h5>
+                    </td>
+                    <td><span><i class="ri-bar-chart-fill"></i></span></td>
+                  </tr>
+                  <tr class="top-sellers-cart">
+                    <td>
+                      <div class="d-flex f-wrap align-center">
+                        <div class="top-sellers-cart-img ">
+                          <img src="asset/images/ts-4.png" alt="">
+                        </div>
+                        <h5>
+                          <p class="top-seller-product">Zoetic Fashion</p><span>James Bowen</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td><span>Clothes</span></td>
+                    <td>
+                      <h5>5488</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td>
+                      <h5>$29456</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5>40%</h5>
+                    </td>
+                    <td><span><i class="ri-bar-chart-fill"></i></span></td>
+                  </tr>
+                  <tr class="top-sellers-cart">
+                    <td>
+                      <div class="d-flex f-wrap align-center">
+                        <div class="top-sellers-cart-img ">
+                          <img src="asset/images/ts-5.png" alt="">
+                        </div>
+                        <h5>
+                          <p class="top-seller-product">Meta4Systems</p><span>Zoe Dennis</span>
+                        </h5>
+                      </div>
+                    </td>
+                    <td><span>Furniture</span></td>
+                    <td>
+                      <h5>4100</h5>
+                      <span>Stock</span>
+                    </td>
+                    <td>
+                      <h5>$11260</h5>
+                      <span>Orders</span>
+                    </td>
+                    <td>
+                      <h5>57%</h5>
+                    </td>
+                    <td> <span><i class="ri-bar-chart-fill"></i></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="top-sellers-bottom">
+              <span>showing</span>
+              <span class="bold">5</span>
+              <span>of</span>
+              <span class="bold">25</span>
+              <span>Results</span>
+              <div class="pagination d-inline-block f-right">
+                <a href="javascript:void(0);" class="pagin">&laquo;</a>
+                <a href="javascript:void(0);" class="pagin">1</a>
+                <a href="javascript:void(0);" class="pagin-active">2</a>
+                <a href="javascript:void(0);" class="pagin">3</a>
+                <a href="javascript:void(0);" class="pagin">&raquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box1 box-9">
+        <div class=" chart2 piechart">
+          <div id="piechart"></div>
+          <ul class="pie-ul">
+            <li class="font">
+              series 1 = 25.6%
+            </li>
+            <li class="font">
+              series 2 = 32.0%
+            </li>
+            <li class="font">
+              series 3 = 23.8%
+            </li>
+            <li class="font">
+              series 4 = 9.9%
+            </li>
+            <li class="font">
+              series 5 = 8.7%
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="box1 box-10">
+        <div class="recent-orders">
+          <div class="best-seller-header justify-between">
+
+            <p class="d-inline-block font">Recent-Orders</p>
+            <a href="javascript:void(0);" class="f-right btn"><i class="ri-file-list-3-line"></i>Generate Report</a>
+
+          </div>
+          <div class="table-body">
+            <table>
+              <thead>
+                <tr>
+                  <th>Order Id</th>
+                  <th>Customer</th>
+                  <th>Product</th>
+                  <th>Amount</th>
+                  <th>Vendor</th>
+                  <th>Status</th>
+                  <th>Rating</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="" class="id"> #VZ2112</a></td>
+                  <td>
+                    <div class="d-flex f-wrap align-center">
+                      <div class="recent-orders-img ">
+                        <img src="asset/images/ro-1.jpg" alt="">
+                      </div>
+                      <div class="recent-orders-users">Alex Smith</div>
+                    </div>
+                  </td>
+                  <td>Clothes</td>
+                  <td class="recent-orders-amt">$109</td>
+                  <td>Zoitic Fashion</td>
+                  <td><span class="paid">paid</span></td>
+                  <td>5.0 <span>(61 votes)</span></td>
+                </tr>
+                <tr>
+                  <td><a href="" class="id"> #VZ2111</a></td>
+                  <td>
+                    <div class="d-flex f-wrap align-item-center">
+                      <div class="recent-orders-img ">
+                        <img src="asset/images/ro-2.jpg" alt="">
+                      </div>
+                      <div class="recent-orders-users">Jansh Brown</div>
+                    </div>
+                  </td>
+                  <td>Kitchen Storage</td>
+                  <td class="recent-orders-amt">$149.00</td>
+                  <td>Micro Design</td>
+                  <td><span class="pending">Pending</span></td>
+                  <td>4.5 <span>(61 votes)</span></td>
+                </tr>
+                <tr>
+                  <td><a href="" class="id"> #VZ2109</a></td>
+                  <td>
+                    <div class="d-flex f-wrap align-center">
+                      <div class="recent-orders-img ">
+                        <img src="asset/images/ro-3.jpg" alt="">
+                      </div>
+                      <div class="recent-orders-users">Ayaan Bowen</div>
+                    </div>
+                  </td>
+                  <td>Bike Accessories</td>
+                  <td class="recent-orders-amt">$215.00</td>
+                  <td>Nesta Technology</td>
+                  <td><span class="paid">Paid</span></td>
+                  <td>4.9 <span>(89 votes)</span></td>
+                </tr>
+                <tr>
+                  <td><a href="" class="id"> #VZ2108</a></td>
+                  <td>
+                    <div class="d-flex f-wrap align-center">
+                      <div class="recent-orders-img ">
+                        <img src="asset/images/ro-4.jpg" alt="">
+                      </div>
+                      <div class="recent-orders-users">Prezy Mark</div>
+                    </div>
+                  </td>
+                  <td>Furniture</td>
+                  <td class="recent-orders-amt">$199.00</td>
+                  <td>Syntyce Solutions</td>
+                  <td><span class="unpaid">Unpaid</span></td>
+                  <td>4.3 <span>(47 votes)</span></td>
+                </tr>
+                <tr>
+                  <td><a href="" class="id"> #VZ2107</a></td>
+                  <td>
+                    <div class="d-flex f-wrap align-item-center">
+                      <div class="recent-orders-img">
+                        <img src="asset/images/ro-5.jpg" alt="">
+                      </div>
+                      <div class="recent-orders-users">Vihan Hudda</div>
+                    </div>
+                  </td>
+                  <td>Bags and Wallets</td>
+                  <td class="recent-orders-amt">$330.00</td>
+                  <td>iTest Factory</td>
+                  <td><span class="paid">Paid</span></td>
+                  <td>4.7 <span>(161 votes)</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="box1 box-11">11</div>
+           <div class="box1 box-12">12</div>   -->
+
+    </div>
+  </section>
+
+
+
+
+  <!-- jq main -->
+  <script src="asset/js/jquery-3.7.1.min.js"></script>
+  <script src="asset/js/theme.js"></script>
+  <script src="asset/js/aside-toggle.js"></script>
+  <script src="asset/js/chart.js"></script>
+  <script src="asset/js/aside-logo.js"></script>
+
+  <!-- map -->
+  <script src="asset/js/map.js"></script>
+
+
+  <!-- map -->
+  <script src="asset/js/map.js"></script>
+  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+  <!-- counter -->
+  <script src="asset/js/counter.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <!-- client .js -->
+  <script src="asset/js/client.js"></script>
+  <!-- chart2 -->
+  <script src="asset/js/chart2.js"></script>
+  <!-- full screen -->
+  <script src="asset/js/fullscreen.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+      $(".ques").on("click", function () {
+        $(this).next(".ans").slideToggle(500);
+        $(".ans").not($(this).next()).slideUp(500);
+        $(this).find('.fa-angle-down').toggleClass("d-none");
+        $(this).find('.fa-angle-up').toggleClass("d-block");
+      });
+    });
+  </script>
+</body>
+
+</html>
